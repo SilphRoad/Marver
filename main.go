@@ -78,7 +78,7 @@ func main() {
 		fmt.Println("Updated StatefulSet to", st.Shards, "replicas")
 		params := discordgo.WebhookParams{
 			Content:  fmt.Sprintf("Bot has been scaled to %d shards.", st.Shards),
-			Username: "Marver",
+			Username: "Silph Bot",
 		}
 		_, err = dg.WebhookExecute(
 			webhookID,
