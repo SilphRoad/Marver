@@ -80,7 +80,7 @@ func main() {
 			Content:  fmt.Sprintf("Bot has been scaled to %d shards.", st.Shards),
 			Username: "Marver",
 		}
-		err = dg.WebhookExecute(
+		_, err = dg.WebhookExecute(
 			webhookID,
 			webhookToken,
 			false,
