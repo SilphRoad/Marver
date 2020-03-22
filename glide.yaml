@@ -1,4 +1,4 @@
 package: github.com/Auttaja-OpenSource/Marver
 import:
 - package: k8s.io/client-go
-  version: v9.0.0 # replace v9.0.0 with the required version
+  version: v11.0.0
